@@ -29,3 +29,56 @@ body {
 
 }
 a:hover { text-decoration: none }
+.video-area-bg{
+    background-image: url(../img/video-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 14px 14px 20px 0px grey;
+    background-color: #ddd;
+    border-radius: 5px;
+    position: absolute;
+    height: 80%;
+    width: 50%;
+    top: 20px;
+    left: 100px;
+}
+a.video-play {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate3d(50%, -50%, 0);
+}
+i.fa.fa-play {
+    position: relative;
+    top: 40%;
+    font-size: 25px;
+}
+.col-md-5.col-md-offset-7 {
+    left: 100px;
+    top: 100px;
+}
+p {
+    color: #a2a2a2;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 30px;
+}
+li {
+    font-weight: 600;
+}
+i.fa.fa-check {
+    padding-right: 15px;
+    color: #2ecc71;
+}
